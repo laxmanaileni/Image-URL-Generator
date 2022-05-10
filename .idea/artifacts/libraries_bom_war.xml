@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="libraries-bom:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>libraries-bom</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="libraries-bom-0.1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="libraries-bom:war exploded" />
+    </root>
+  </artifact>
+</component>
